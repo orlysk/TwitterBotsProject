@@ -1,0 +1,3 @@
+https://botometer.osome.iu.edu/bot-repository/datasets.html
+
+https://www.kaggle.com/datasets/davidmartngutirrez/twitter-bots-accounts
