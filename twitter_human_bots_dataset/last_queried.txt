@@ -1,0 +1,6 @@
+tweets040522.csv : last 10 tweets queried for account ids 0-12499 (from twitter_human_bots_dataset.csv)
+followers040522.csv : messy and not enough data - leave it for now
+
+
+* rows with only account_id (all other columns are Nones) - these users have no tweets / followers !
+** created these datasets using: `create_csvs_gradually` notebook and merged using `merge_csvs` notebook
