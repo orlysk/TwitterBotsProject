@@ -1,1 +1,9 @@
 requests
+notebook
+pytest
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+sklearn
