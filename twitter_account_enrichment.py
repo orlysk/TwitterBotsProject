@@ -6,6 +6,7 @@ import requests
 bearer_token1 = "AAAAAAAAAAAAAAAAAAAAAK%2FHbgEAAAAAcNNLTzuXuV6ThP3fz30PTJOx294%3DAGpkjKXSxcxnEzeyPJB7XVbeP20TjmLhzpdpMndBB0gIiYk5Dk"
 bearer_token2 = "AAAAAAAAAAAAAAAAAAAAACxLcAEAAAAA%2FBABpl1rAAUCCN%2F7ClajopC%2BgZw%3DAmKhcPF9A1qoMvtfrlAjQiVfy3RiiNJKEJvhT2uBgr5Obd0n10"
 
+
 def get_users_lookup_url(account_ids: List[str]) -> str:
     account_ids_str = ','.join(account_ids)
     url = f"https://api.twitter.com/2/users?ids={account_ids_str}"
@@ -61,7 +62,7 @@ def enrich_users(accounts_ids: List[str]) -> Dict:
 
 def get_user_tweets(account_id: str) -> Dict:
     user_tweets_params = {
-        "tweet.fields": "attachments,context_annotations,conversation_id,created_at,entities,id,in_reply_to_user_id,lang,public_metrics,reply_settings,source,text",
+        "tweet.fields": "attachments,context_annotations,conversation_id,created_at,entities,id,in_reply_to_user_id,lang,public_metrics,reply_settings,source,text,referenced_tweets",
         "max_results": 10
     }
     user_tweets_url = get_user_tweets_url(account_id)
