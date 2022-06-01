@@ -8,5 +8,5 @@ seaborn
 tqdm
 sklearn
 wordcloud
-fastai
 networkx
+igraph
