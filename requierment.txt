@@ -10,3 +10,4 @@ sklearn
 wordcloud
 networkx
 igraph
+community
