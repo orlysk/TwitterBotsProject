@@ -10,4 +10,4 @@ sklearn
 wordcloud
 networkx
 igraph
-community
+python-louvain
