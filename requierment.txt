@@ -11,3 +11,4 @@ wordcloud
 networkx
 igraph
 scikit-learn
+community
