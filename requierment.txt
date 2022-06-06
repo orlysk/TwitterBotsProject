@@ -12,3 +12,5 @@ networkx
 igraph
 python-louvain
 scikit-learn
+community
+python-louvain
