@@ -13,3 +13,4 @@ igraph
 python-louvain
 scikit-learn
 python-louvain
+shap
