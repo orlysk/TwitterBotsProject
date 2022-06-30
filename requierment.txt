@@ -14,3 +14,6 @@ python-louvain
 scikit-learn
 python-louvain
 shap
+pycountry-convert
+geopy
+folium
