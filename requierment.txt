@@ -17,3 +17,5 @@ shap
 pycountry-convert
 geopy
 folium
+transformers
+ipywidgets
